@@ -1,4 +1,7 @@
 # Proyecto de Investigación - Primer Bimestre
+
+![image](https://github.com/ikestrella/PAvanzada/assets/115649439/cb035063-6ffd-47dc-8595-255a40cfabe0)
+
 ## Concurrencia en Scala
 
 La actividad consiste en realizar una búsqueda de información sobre los modelos de programación concurrente que utilizan otros lenguajes de programación y comprender sus similitudes y diferencias con el modelo que usa el lenguaje que está estudiando (Java, que se basa en Threads). El lenguaje asignado es Scala, en el cual se hará la multiplicación de dos matrices usando hilos.
