@@ -86,9 +86,7 @@ Await.result(Future.sequence(futures), Duration.Inf)
 
 Dentro de esta condición, creamos una variable `futures` que contendrá los hilos encargados de realizar la multiplicación. Una vez realizada la multiplicación, los valores se asignan a la variable `resultado`.
 
-## Conclusión
 
-Ambos lenguajes permiten la programación concurrente, pero utilizan modelos diferentes. Scala, con su uso de `Future` y `ExecutionContext`, proporciona una manera más simplificada y abstracta para manejar la concurrencia, mientras que Java ofrece un control más explícito y detallado mediante el uso directo de hilos y ejecutores (`Executors`).
 
 ## Como solucionar problemas de hilos en Scala.
 
@@ -117,3 +115,7 @@ La inanición de recursos se puede mitigar en Scala usando ExecutionContext corr
 
 
 La inversión de prioridad se puede abordar en Scala asegurando que los hilos de alta prioridad no se bloqueen innecesariamente esperando hilos de baja prioridad. Aunque Scala no proporciona mecanismos directos para manejar la inversión de prioridad, el uso de actores y Futures puede ayudar a evitar este problema al diseñar aplicaciones concurrentes de manera que minimicen las dependencias entre tareas de diferentes prioridades.
+
+## Conclusión
+
+Ambos lenguajes permiten la programación concurrente, pero utilizan modelos diferentes. Scala, con su uso de `Future` y `ExecutionContext`, proporciona una manera más simplificada y abstracta para manejar la concurrencia, mientras que Java ofrece un control más explícito y detallado mediante el uso directo de hilos y ejecutores (`Executors`).
